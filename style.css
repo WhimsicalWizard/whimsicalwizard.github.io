@@ -1,0 +1,63 @@
+body {
+    font-family: 'Comic Sans MS', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ff69b4;
+    color: #333;
+}
+
+ h1 {
+    margin: 0;
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 2em;
+  
+}
+
+
+.top{
+    color: #333;
+}
+section {
+    max-width: 800px;
+    height: 100px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+  box-shadow: 0 0 10px rgb(39, 255, 183);
+}
+/* section:hover{
+    
+    animation: blink 0.5s ease forwards;
+}
+@keyframes blink{
+    from{
+        background-color: #ffffff;
+    }
+    to{
+       
+        background-color: #ff86c2;
+    }
+} */
+h2 {
+     text-align: center;
+}
+
+
+img{
+height: 50px;
+width: 50px;
+}
+img:hover{
+    height: 60px;
+width: 60px;
+}
+footer {
+    background-color: #ffc0cb; /* Pink */
+    text-align: center;
+    padding: 10px;
+    border-top: 5px solid #ff69b4; /* Pink-Red */
+}
